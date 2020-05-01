@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Semana1;
+import java.util.Scanner;
 
 /**
  *
@@ -15,8 +16,12 @@ public class TablaMultiplicacion {
         
         System.out.println("*** T A B L A  D E  M U L T I P L I C A R ***");
         
+        Scanner lea = new Scanner(System.in);
         
-        int tabla = 9;
+        System.out.print("Ingrese numero de tabla: ");
+        int tabla = lea.nextInt();
+        
+        
         int inicio = 1;
         
         //Imprime la tabla desde 1 hasta 12

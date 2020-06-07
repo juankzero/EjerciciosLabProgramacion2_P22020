@@ -15,6 +15,12 @@ public class FileSystem {
         
         Directory raiz = new Directory("C:", 2);
         
+        /*if( raiz.getType() == FileType.directory )
+            System.out.printf("La entrada de directorio %s es %s%n", raiz.getName(), "Directorio");
+        */
+        if( raiz instanceof Directory)
+            System.out.printf("La entrada de directorio %s es %s%n", raiz.getName(), "Directorio");
+        
         raiz.addDirectory("Users", 2);
         raiz.addDirectory("Windows", 2);
         raiz.addDirectory("Program Files", 2);

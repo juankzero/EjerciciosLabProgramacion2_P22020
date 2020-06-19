@@ -5,6 +5,9 @@
  */
 package Semana6.Reto;
 
+import java.io.File;
+import java.io.RandomAccessFile;
+
 /**
  *
  * @author Juan Carlos Zepeda
